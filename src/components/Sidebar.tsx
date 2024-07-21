@@ -11,7 +11,8 @@ const SidebarContainer = styled.div<{ isOpen: boolean }>`
 const Sidebar: React.FC<{ isOpen: boolean; toggle: () => void }> = ({ isOpen, toggle }) => {
     return (
         <SidebarContainer isOpen={isOpen}>
-            <button onClick={toggle}>Toggle</button>
+            <span>cld</span>
+            <button onClick={toggle}>toggle</button>
             <nav>
                 <ul>
                     <li><Link to="/">홈</Link></li>
